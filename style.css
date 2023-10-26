@@ -1,0 +1,78 @@
+/*Colors and fonts*/
+body {
+	background-color: rgb(230,230,230);
+	color : rgb(50,50,50);
+	font-family: Helvetica;
+	font-size : 17px;
+	font-weight: lighter;
+	text-align: center;
+}
+
+h1,h2,h3{
+	font-family: Courier;
+}
+
+h1 {
+	color : #186F65;
+	font-size : 32px;
+}
+
+
+h2 {
+	color : #4F709C;
+	font-size : 24px;
+	font-weight: lighter;
+}
+
+a{
+	text-decoration: none;
+	color : red;
+}
+a:hover {
+	color : blue;
+}
+
+div {
+	background: white;
+	padding:60px;
+	margin: 10px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,1);
+	border-radius: 4px;
+	display: block;
+}
+
+.container {
+  width: 1000px; 
+  margin: 20px auto; 
+}
+
+
+
+#photodeprofil {
+	width: 200px;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.shadowed {
+	box-shadow: 5px 5px 3px black;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
